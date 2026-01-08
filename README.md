@@ -17,3 +17,25 @@ Kopplung: Beschreibt, wie stark Klassen voneinander abhängig sind. Ziel: gering
 Kohäsion: Wie gut Methoden und Felder einer Klasse thematisch zusammenpassen. Ziel: hohe Kohäsion. Maßnahmen: Klassen aufteilen, wenn sie zu viele unterschiedliche Aufgaben erfüllen.
 
 Refactoring: Code schrittweise verbessern, ohne Verhalten zu ändern. Vorgehen: verstehen → kleine Schritte → testen → dokumentieren.
+
+**SOLID-Prinzipien – Erklärung**
+Single Responsibility Principle (SRP)
+
+Eine Klasse sollte genau eine Verantwortung haben und nur einen Grund zur Änderung.
+
+Erklärung:
+Wenn eine Klasse mehrere Aufgaben übernimmt (z. B. Spiellogik und Ein-/Ausgabe), steigt die Kopplung und die Klasse wird schwer wartbar.
+
+Beispiel (Verletzung):
+
+Klasse Spiel übernimmt:
+
+Steuerung des Spielablaufs
+
+Verwaltung der Räume
+
+Ausgabe von Texten an den Benutzer
+
+Verbesserung:
+
+Auslagerung der Textausgabe in eine eigene Klasse (z. B. SpielUI)

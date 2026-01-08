@@ -18,7 +18,7 @@ Kohäsion: Wie gut Methoden und Felder einer Klasse thematisch zusammenpassen. Z
 
 Refactoring: Code schrittweise verbessern, ohne Verhalten zu ändern. Vorgehen: verstehen → kleine Schritte → testen → dokumentieren.
 
-**SOLID-Prinzipien – Erklärung**
+**Aufgabe 3 - SOLID-Prinzipien – Erklärung**
 Single Responsibility Principle (SRP)
 
 Eine Klasse sollte genau eine Verantwortung haben und nur einen Grund zur Änderung.

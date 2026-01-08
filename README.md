@@ -26,17 +26,3 @@ Eine Klasse sollte genau eine Verantwortung haben und nur einen Grund zur Änder
 
 Erklärung:
 Wenn eine Klasse mehrere Aufgaben übernimmt (z. B. Spiellogik und Ein-/Ausgabe), steigt die Kopplung und die Klasse wird schwer wartbar.
-
-Beispiel (Verletzung):
-
-Klasse Spiel übernimmt:
-
-Steuerung des Spielablaufs
-
-Verwaltung der Räume
-
-Ausgabe von Texten an den Benutzer
-
-Verbesserung:
-
-Auslagerung der Textausgabe in eine eigene Klasse (z. B. SpielUI)
